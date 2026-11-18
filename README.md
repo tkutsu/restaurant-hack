@@ -1,24 +1,25 @@
 # Restaurant Hack
 
-A small React app built to check for open restaurant tables during Dine Athens in April 2022.
+A small React app I made to find open tables during Dine Athens in April 2022.
 
-## Status
+## It doesn't work anymore
 
-This project is archived and no longer operational. It is tied to the expired `DINEATHENS` campaign and hard-coded April 2022 dates. The iReserve endpoint still responds, but it no longer returns usable availability for this event.
+The campaign code (`DINEATHENS`) and the April 2022 dates are hard-coded, and
+both have long expired. The iReserve endpoint still answers, but it no longer
+returns anything useful for this event.
 
 ## What it did
 
-- Let you search for a table for two or four diners.
-- Checked availability at Spondi, Sense, Zillers, CTC, and Ovio.
-- Queried each remaining event date and displayed the unique available times.
+You picked a table for two or four, and it checked Spondi, Sense, Zillers, CTC
+and Ovio for every date left in the event, then showed each free time once.
 
-## Development
+## Running it
 
-The app was built with React 18 and Create React App.
+It's React 18 on Create React App:
 
 ```sh
 npm install
 npm start
 ```
 
-The interface can still be run locally, but restaurant searches are not expected to work.
+The page still loads, but searches won't find anything.
